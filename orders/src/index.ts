@@ -9,7 +9,7 @@ import { Listener } from '@larengifo-ticks/common';
 
 const start = async () => {
   console.log(
-    'Starting once again dude!!! ... Testing selective testing on github'
+    'Starting once again dude!!! ... Testing selective testing on github.'
   );
 
   if (!process.env.JWT_KEY) {
