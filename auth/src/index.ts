@@ -4,6 +4,7 @@ import { app } from './app';
 
 const start = async () => {
   console.log('Starting up once again to test deploy!!!... another voice!');
+  console.log('Maybe now?');
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined');
   }
