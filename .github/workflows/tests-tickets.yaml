@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HEAD
 HEAD
 name: tests-tickets
@@ -7,6 +8,17 @@ name: tests-auth
 
 name: tests-tickets
 38af90b76250f310fa5d23b055487459dba9e126
+=======
+dev
+HEAD
+name: tests-tickets
+
+name: tests-tickets
+6efefa1adb5227c465345a735163cbb40ba44912
+
+name: tests-tickets
+master
+>>>>>>> f5650cbfb0b1e9fafc69ab26823798ae7096cfb3
 
 on:
   pull_request
@@ -16,6 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+<<<<<<< HEAD
 HEAD
 HEAD
       - run: cd tickets && npm install && npm run test:ci
@@ -25,3 +38,14 @@ HEAD
 
       - run: cd tickets && npm install && npm run test:ci
 38af90b76250f310fa5d23b055487459dba9e126
+=======
+dev
+HEAD
+      - run: cd tickets && npm install && npm run test:ci
+
+      - run: cd tickets && npm install && npm run test:ci
+6efefa1adb5227c465345a735163cbb40ba44912
+
+      - run: cd tickets && npm install && npm run test:ci
+master
+>>>>>>> f5650cbfb0b1e9fafc69ab26823798ae7096cfb3
