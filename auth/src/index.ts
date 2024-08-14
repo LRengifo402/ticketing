@@ -6,7 +6,7 @@ const start = async () => {
   console.log('Starting up once again to test deploy!!!... another voice!');
   console.log('Maybe now??');
   console.log('Switch to trunk-based development!');
-  console.log('Trying use of DOCKERHUB_TOKEN!!');
+  console.log('Trying use of DOCKERHUB_TOKEN!!  ');
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined');
   }
