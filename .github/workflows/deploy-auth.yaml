@@ -17,4 +17,3 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - run: docker push luisarengifo/auth
-      - run: console.log('UID&PWD:',${{ secrets.DOCKER_USERNAME }}, ${{ secrets.DOCKERHUB_TOKEN }} )
