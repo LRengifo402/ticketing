@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: Ticketing
     steps:
       - uses: actions/checkout@v2
       - run: cd auth && docker build -t luisarengifo/auth .
