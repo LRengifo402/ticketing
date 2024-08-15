@@ -7,6 +7,7 @@ const start = async () => {
   console.log('Maybe now??');
   console.log('Switch to trunk-based development!');
   console.log('Finally??? ?? ??');
+  console.log('Seems like it!');
 
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined');
